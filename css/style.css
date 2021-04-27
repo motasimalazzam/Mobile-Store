@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+h1{
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 25px;
+}
+
+main {
+    background-image: url('../images/NX7PC.jpg');
+    height: 500px;
+    /* background-repeat: no-repeat; */
+  }
+
+/* form */
+
+#form{
+    width: 30%;
+    background-color: rgba(211, 211, 211, 0.548);
+    display: block;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-top: 25px;
+    display: center;
+}
+label{
+    position: relative;
+    left: 40%;
+    font-family: 'Courgette', cursive;
+    font-weight: bolder;
+}
+input[type=text] {
+    position: relative;
+    left: 25%;
+    display: block;
+    border-radius: 50px;
+    display: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 200px;
+  }
+
+select{
+    position: relative;
+    left: 25%;
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 50px;
+    width: 200px;
+}  
+input[type=submit]{
+    position: relative;
+    left: 25%;
+    display: block;
+    border-radius: 50px;
+    display: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(39, 39, 39);
+    font-size: medium;
+    font-weight: bolder;
+    width: 200px;
+    color: white;
+}
+
+
+/* table */
+
+#container{
+    float: right;
+    margin-right: 15%;
+    margin-top: 25px;
+    background-color: rgba(211, 211, 211, 0.548);
+    margin-bottom: 50px;
+}
+
+table,tr,th,td{
+    border: solid;
+}
+
+th{
+    background-color: rgb(39, 39, 39);
+    color: white;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    padding: 15px;
+
+}
+
+td{
+    background-color: rgb(78, 78, 78);
+    color: white;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    text-align: center; 
+    padding: 15px;
+}
+
+/* footer */
+footer{
+    background-color: whitesmoke;
+    text-align: center;
+    clear: both;
+    margin-top: 70px;
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+    font-weight: bolder;
+}
